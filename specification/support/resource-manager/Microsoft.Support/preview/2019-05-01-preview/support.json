@@ -77,7 +77,7 @@
                     "Services"
                 ],
                 "summary": "List all the Azure services available for support.",
-                "description": "List all the Azure services available for support. This includes **Billing**, **Subscription Management**, **Service and subscription limits (quotas)** and all **technical** services. User must provide the id of the Azure service when creating a support ticket. <br/>For Billing, the id is '/providers/Microsoft.Support/services/517f2da6-78fd-0498-4e22-ad26996b1dfc'. <br/>For Subscription Management, the id is '/providers/Microsoft.Support/services/f3dc5421-79ef-1efa-41a5-42bf3cbb52c6'. <br/>For Quota, the id is '/providers/Microsoft.Support/services/06bfd9d3-516b-d5c6-5802-169c800dec89' and rest of the ids are for technical services.",
+                "description": "List all the Azure services available for support. This includes **Billing**, **Subscription Management**, **Service and subscription limits (quotas)** and all **technical** services. User must provide the id of the Azure service when creating a support ticket. \n* For Billing, the id is '/providers/Microsoft.Support/services/517f2da6-78fd-0498-4e22-ad26996b1dfc'. \n* For Subscription Management, the id is '/providers/Microsoft.Support/services/f3dc5421-79ef-1efa-41a5-42bf3cbb52c6'. \n* For Quota, the id is '/providers/Microsoft.Support/services/06bfd9d3-516b-d5c6-5802-169c800dec89' and rest of the ids are for technical services.",
                 "operationId": "Services_List",
                 "parameters": [
                     {
@@ -288,7 +288,7 @@
                 "tags": [
                     "SupportTickets"
                 ],
-                "description": "Lists all the support tickets for an Azure subscription. Support tickets older than 6 months cannot be retrieved using this API.",
+                "description": "Lists all the support tickets for an Azure subscription. Support tickets older than 12 months cannot be retrieved using this API.",
                 "operationId": "SupportTickets_ListBySubscription",
                 "parameters": [
                     {
@@ -1008,8 +1008,8 @@
                 "communicationType": {
                     "description": "Communication type.",
                     "enum": [
-                        "web",
-                        "phone"
+                        "Web",
+                        "Phone"
                     ],
                     "type": "string",
                     "x-ms-enum": {
@@ -1361,15 +1361,15 @@
                     "type": "string"
                 },
                 "preferredTimeZone": {
-                    "description": "Time zone of the user. This is the System.TimeZoneInfo.Id value",
+                    "description": "Time zone of the user. This is the name of the time zone from 'Microsoft Time Zone Index Values'",
                     "type": "string"
                 },
                 "country": {
-                    "description": "Country of the user. This is the ISO Alpha-3 code",
+                    "description": "Country of the user. This is the ISO 3166-1 alpha-3 code",
                     "type": "string"
                 },
                 "preferredSupportLanguage": {
-                    "description": "Language of the user. This is the standard country-language code.",
+                    "description": "Language of the user. This is the standard language-country code.",
                     "type": "string"
                 }
             }
