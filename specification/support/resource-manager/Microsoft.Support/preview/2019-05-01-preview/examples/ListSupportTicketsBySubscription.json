@@ -1,7 +1,7 @@
 {
   "parameters": {
     "$top": 2,
-    "$filter": "Status eq 'Open' and CreatedDate ge 2019-09-07T10:10:25.7252613Z"
+    "$filter": "Status eq 'Open' and CreatedDate ge 2019-09-07T10:10:25.7252613Z",
     "subscriptionId": "0154f7fe-df09-4981-bf82-7ad5c1f596eb",
     "api-version": "2019-05-01-preview"
   },
