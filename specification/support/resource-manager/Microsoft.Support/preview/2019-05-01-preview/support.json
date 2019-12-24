@@ -306,6 +306,13 @@
                         "description": "The filter to apply on the operation."
                     },
                     {
+                        "name": "$skipToken",
+                        "in": "query",
+                        "required": false,
+                        "type": "string",
+                        "description": "The pagination token for requesting next page."
+                    },
+                    {
                         "$ref": "#/parameters/SubscriptionIdParameter"
                     },
                     {
@@ -568,6 +575,13 @@
                         "required": false,
                         "type": "string",
                         "description": "The filter to apply on the operation."
+                    },
+                    {
+                        "name": "$skipToken",
+                        "in": "query",
+                        "required": false,
+                        "type": "string",
+                        "description": "The pagination token for requesting next page."
                     },
                     {
                         "$ref": "#/parameters/SubscriptionIdParameter"
