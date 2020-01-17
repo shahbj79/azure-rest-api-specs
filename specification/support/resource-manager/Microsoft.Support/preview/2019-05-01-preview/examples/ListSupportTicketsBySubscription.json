@@ -1,5 +1,7 @@
 {
   "parameters": {
+    "$top": 2,
+    "$filter": "Status eq 'Open' and CreatedDate ge 2019-09-07T10:10:25.7252613Z",
     "subscriptionId": "0154f7fe-df09-4981-bf82-7ad5c1f596eb",
     "api-version": "2019-05-01-preview"
   },
@@ -32,8 +34,8 @@
                 "resourceId": "/subscriptions/76cb77fa-8b17-4eab-9493-b65dace99813/resourceGroups/test/providers/Microsoft.Compute/virtualMachines/testserver"
               },
               "serviceLevelAgreement": {
-                "startTime": "2018-03-20T21:36:18Z",
-                "expirationTime": "2018-03-21T17:36:18Z",
+                "startTime": "2019-10-20T21:36:18Z",
+                "expirationTime": "2019-10-21T17:36:18Z",
                 "slaMinutes": 240
               },
               "supportPlanType": "Premier",
@@ -41,8 +43,8 @@
               "serviceId": "/providers/Microsoft.Support/services/cddd3eb5-1830-b494-44fd-782f691479dc",
               "serviceDisplayName": "Virtual Machine running Linux",
               "status": "Open",
-              "createdDate": "2018-03-20T21:36:18Z",
-              "modifiedDate": "2018-03-20T21:36:23Z"
+              "createdDate": "2019-10-20T21:36:18Z",
+              "modifiedDate": "2019-10-20T21:36:23Z"
             }
           },
           {
@@ -67,8 +69,8 @@
                 "preferredSupportLanguage": "en-US"
               },
               "serviceLevelAgreement": {
-                "startTime": "2018-03-20T21:36:18Z",
-                "expirationTime": "2018-03-21T17:36:18Z",
+                "startTime": "2019-10-20T21:36:18Z",
+                "expirationTime": "2019-10-21T17:36:18Z",
                 "slaMinutes": 240
               },
               "supportPlanType": "Premier",
@@ -76,8 +78,8 @@
               "serviceId" : "/providers/Microsoft.Support/services/f3dc5421-79ef-1efa-41a5-42bf3cbb52c6",
               "serviceDisplayName": "Subscription management",
               "status": "Open",
-              "createdDate": "2018-03-20T21:36:18Z",
-              "modifiedDate": "2018-03-20T21:36:23Z"
+              "createdDate": "2019-10-20T21:36:18Z",
+              "modifiedDate": "2019-10-20T21:36:23Z"
             }
           }
         ]

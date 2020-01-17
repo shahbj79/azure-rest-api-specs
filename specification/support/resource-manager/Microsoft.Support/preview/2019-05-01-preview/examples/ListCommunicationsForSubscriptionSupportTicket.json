@@ -1,5 +1,7 @@
 {
   "parameters": {
+    "$top": 2,
+    "$filter": "CommunicationType eq 'Web'",
     "subscriptionId": "0154f7fe-df09-4981-bf82-7ad5c1f596eb",
     "supportTicketName": "testticket",
     "api-version": "2019-05-01-preview"
@@ -15,7 +17,7 @@
             "properties": {
               "subject": "this is a test message",
               "body": "this is a test message",
-              "communicationType": "web",
+              "communicationType": "Web",
               "communicationDirection": "outbound",
               "sender": "user@contoso.com",
               "createdDate": "2016-08-24T20:18:19Z"
@@ -28,7 +30,7 @@
             "properties": {
               "subject": "test",
               "body": "test",
-              "communicationType": "web",
+              "communicationType": "Web",
               "communicationDirection": "outbound",
               "sender": "user@contoso.com",
               "createdDate": "2016-08-29T10:53:19Z"

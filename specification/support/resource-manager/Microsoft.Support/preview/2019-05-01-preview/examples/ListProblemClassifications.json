@@ -12,7 +12,7 @@
                         "name": "057f6615-3650-5370-57b2-e1a64af3b037",
                         "type": "Microsoft.Support/problemClassifications",
                         "properties": {
-                            "displayName": "/Reservation Management/Exchanges and Refunds"
+                            "displayName": "Reservation Management / Exchanges and Refunds"
                         }
                     },
                     {
@@ -20,7 +20,7 @@
                         "name": "0b759e67-2619-49bf-441d-ed952a5f32c5",
                         "type": "Microsoft.Support/problemClassifications",
                         "properties": {
-                            "displayName": "/Reservation Management/Request Invoices"
+                            "displayName": "Reservation Management / Request Invoices"
                         }
                     },
                     {
@@ -28,7 +28,7 @@
                         "name": "10ec0d5a-45cd-a195-1252-0dfcca25263d",
                         "type": "Microsoft.Support/problemClassifications",
                         "properties": {
-                            "displayName": "/Reservation Management/Other Iissues or Requests"
+                            "displayName": "Reservation Management / Other Iissues or Requests"
                         }
                     },
                     {
@@ -36,7 +36,7 @@
                         "name": "43cabb12-33e3-5f97-5b68-9e6ce6412adc",
                         "type": "Microsoft.Support/problemClassifications",
                         "properties": {
-                            "displayName": "/Other General Billing Questions"
+                            "displayName": "Other General Billing Questions"
                         }
                     }
                 ]
